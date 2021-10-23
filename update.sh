@@ -18,8 +18,8 @@ cd /usr/bin
 # menu
 wget -O vvip "https://raw.githubusercontent.com/shopeevpn/vvip/main/vvip.sh"
 wget -O xp-vvip "https://raw.githubusercontent.com/shopeevpn/vvip/main/xp-vvip.sh"
-chmod +x addip
-chmod +x xp-ip
+chmod +x vvip
+chmod +x xp-vvip
 cd
 echo "35 21 * * * root /usr/bin/xp-vvip # delete expired ip" >> /etc/crontab
 echo -e ""
